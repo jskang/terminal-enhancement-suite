@@ -1,2 +1,2 @@
-cp system_sound2.mp3 ~/Public/
+cp system_sound3.mp3 ~/Public/
 cat ./script.sh >> ~/.bash_profile

@@ -8,3 +8,4 @@ do
 done
 cd ~;
 rm -rf $a
+source ~/.bash_profile
