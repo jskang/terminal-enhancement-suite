@@ -1,4 +1,4 @@
-for i in $(ls -d */)
+for i in $(ls -d plugins/*/)
 do
     cd ${i};
     ./install.sh;
