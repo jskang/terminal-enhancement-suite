@@ -1,6 +1,5 @@
 currentDirectory=`pwd`
-file=`plugins/shell_selector.sh`
-
+file=`plugins/scripts/shell_selector.sh`
 cd plugins;
 for i in $(ls -d */)
 do
