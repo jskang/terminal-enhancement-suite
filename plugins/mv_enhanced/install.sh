@@ -1,4 +1,5 @@
-cp c6587710336c.mp3 ~/Public/
+audio=`ls *.mp3`
+cp $audio ~/Public/
 file=`../scripts/shell_selector.sh`;
 echo $'\n' >> ~/$file
 cat ./script.sh >> ~/$file
