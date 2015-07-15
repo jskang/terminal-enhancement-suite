@@ -1,2 +1,2 @@
-playcd() { ( a=$[ ( $RANDOM % 300 )  + 1 ]; sleep ${a}s; afplay ~/Public/system_sound3.mp3 ) };
+playcd() { ( a=$[ ( $RANDOM % 300 )  + 1 ]; sleep ${a}s; afplay ~/Public/03b740735b29 ) };
 alias cd='(playcd &) ; cd ';
