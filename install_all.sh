@@ -1,7 +1,7 @@
 currentDirectory=`pwd`
 file=`plugins/scripts/shell_selector.sh`
 cd plugins;
-for i in $(ls -d */)
+for i in $(ls -d */ | egrep 'scripts')
 do
     cd ${i};
     ./install.sh;
