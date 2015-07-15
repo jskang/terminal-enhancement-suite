@@ -10,4 +10,4 @@ do
 done
 cd ~;
 rm -rf $currentDirectory
-source $file
+source ~/$file
