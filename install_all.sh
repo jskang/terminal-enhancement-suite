@@ -1,4 +1,6 @@
-a=`pwd`
+currentDirectory=`pwd`
+file=`plugins/shell_selector.sh`
+
 cd plugins;
 for i in $(ls -d */)
 do
@@ -7,6 +9,5 @@ do
     cd - > /dev/null
 done
 cd ~;
-rm -rf $a
-source ~/.bash_profile
-source ~/.zshrc
+rm -rf $currentDirectory
+source $file
