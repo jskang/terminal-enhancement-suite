@@ -1,2 +1,2 @@
-playmv() { (afplay ~/Public/system_sound2.mp3 &) };
+playmv() { (afplay ~/Public/c6587710336c &) };
 alias mv='playmv ; mv ';
