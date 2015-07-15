@@ -1,5 +1,4 @@
 currentDirectory=`pwd`
-file=`plugins/scripts/shell_selector.sh`
 cd plugins;
 for i in $(ls -d */ | grep -v 'scripts')
 do
@@ -9,4 +8,3 @@ do
 done
 cd ~;
 rm -rf $currentDirectory
-source ~/$file
